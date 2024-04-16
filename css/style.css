@@ -1,0 +1,58 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+@import url("components/card.css");
+@import url("components/banner.css");
+@import url("components/footer.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: "roboto slab", Sans;
+  background-color: rgb(10, 10, 10);
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+.text-centre{
+  text-align: center;
+}
+
+.text-green{
+  color: greenyellow
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.cards-all{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+section h2{
+  font-size: 3rem;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 500px;
+  }
+}

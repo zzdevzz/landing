@@ -1,0 +1,24 @@
+footer{
+  margin-top: 150px;
+  background-color: #369457;
+  color: white;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+  margin: 0 auto;
+  padding-left: 0px;
+}
+li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.fa-brands, .fa-solid{
+  color: white;
+  font-size: 3rem;
+}
